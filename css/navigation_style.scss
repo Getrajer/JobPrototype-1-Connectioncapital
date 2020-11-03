@@ -1,7 +1,45 @@
-#menu{
 
+button, a{
+    &:focus{
+        outline: none;
+    }
+}
+
+#menu_toggler_container{
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    
+    button{
+        width: 35px;
+        height: 32px;
+        background-color: #2d9091;
+        color: white;
+        border: unset;
+    }
+}
+
+.navAnimation_class{
+    animation-name: NavAnimation;
+    animation-duration: 1s;
+}
+
+#NavigationCloseButton{
+    display: none;
+}
+
+#Menu{
     list-style: none;
     padding: 0;
+    position: fixed;
+    top: 0;
+    padding-top: 15px;
+    display: none;
+    width: 100%;
+    background-color: #fff;
+
+    
 
     li{
         padding: 0 15px;
@@ -9,10 +47,31 @@
     }
 
     a{
-        padding: 7px 0;
+        font-family: 'Heebo', sans-serif;
+        padding: 7px 10px;
         border-bottom: 1px solid #ccc;
         width: 100%;
-        color: #000000;
+        color: #212224;
+        font-size: 1.1rem / 2.5rem;
         display: block;
+        font-weight: 500;
+        text-decoration: none;
+        transition: 0.5s;
+
+
+        &:hover{
+            color: #00b9af;
+        }
+    }
+}
+
+
+@keyframes NavAnimation{
+    0%{
+        top:-200px;
+    }
+
+    100%{
+        top: 0px;
     }
 }
