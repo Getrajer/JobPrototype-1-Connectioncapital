@@ -28,6 +28,11 @@ button:focus, a:focus {
   display: none;
 }
 
+.navigation {
+  height: 90px;
+  background-color: white;
+}
+
 #Menu {
   list-style: none;
   padding: 0;
@@ -40,7 +45,7 @@ button:focus, a:focus {
 }
 
 #Menu li {
-  padding: 0 15px;
+  padding: 10px 15px;
   width: 100%;
 }
 
@@ -56,6 +61,7 @@ button:focus, a:focus {
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  margin: 0;
 }
 
 #Menu a:hover {
