@@ -1,7 +1,22 @@
+a{
+
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+h1, h2 ,h3 ,h4, h5{
+            font-family: 'Martel', serif;
+}
+
+p, a{
+    font-family: 'Heebo', sans-serif;
+}
+
 .welcome_header{
     display: flex;
     justify-content: center;
-
+    padding-top:85px;
     background: linear-gradient(140deg, rgb(70, 42, 136) 25%, rgba(0,185,175,0.92) 100%);
 
     .welcome_header_container{
@@ -16,9 +31,8 @@
         padding: 100px 1em 3em 1em;
 
         h1{
-            font-family: 'Martel', serif;
             font-weight: 600;
-            font-size: 2.4rem;
+            font-size: 2.375rem/2.875rem
         }
 
         h2{
@@ -51,11 +65,73 @@
             border-top: 5px solid #00b9af;
             padding: 30px 20px;
             font-family: 'Heebo', sans-serif;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
+            transition: 0.5s;
+        
 
             i{
                 padding-left: 0.2em;
             }
+        }
+    }
+}
+
+.specialist{
+    padding: 60px 0 20px 0;
+    display: flex;
+    justify-content: center;
+
+    .specialist_container{
+        width: 100%;
+        max-width: 1200px;
+        text-align: center;
+
+        h2{
+            color: #0a1b73;
+            font-family: 'Martel', serif;
+            font-weight: 800;
+            font-size: 2.375rem/2.875rem;
+            padding: 0 1em;
+        }
+
+        p{
+            margin-top: 0.8em;
+            font-weight: 300!important;
+            padding: 0 1em;
+        }
+    }
+}
+
+
+.offer_links{
+    display: flex;
+    justify-content: center;
+
+    .offer_links_container{
+        padding: 2em 1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+
+        .offer_content{
+            background-image: linear-gradient(0deg, rgba(245,246,247,1) 0%, rgba(255,255,255,1) 100%);
+            padding: 30px 30px 30px 15px;
+            transition: box-shadow 0.5s, background-color 0.5s;
+
+            &:hover{
+                box-shadow: 0 0px 15px 0px rgba(29,45,126,0.2);
+                background-color: #fff;
+            }
+        }
+
+        h3{
+            color: #452b88;
+            font-size: 1.375rem/2rem;
+            font-weight: 900;
+        }
+
+        p{
+            color: #555555;
         }
     }
 }

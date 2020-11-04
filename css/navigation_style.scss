@@ -32,12 +32,13 @@ button, a{
 .navigation{
     height: 90px;
     background-color: white;
+    position: fixed;
+    width: 100%;
 }
 
 #Menu{
     list-style: none;
     padding: 0;
-    position: fixed;
     top: 0;
     padding-top: 15px;
     display: none;
