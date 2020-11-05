@@ -223,9 +223,9 @@ p, a{
             text-decoration: none;
             padding: 18px 30px;
             display: inline-block;
-            font-size: 18px;
+            font-size: 1.125rem/1.75rem;
             margin: 75px 0 0;
-            font-weight: 500;
+            font-weight: 400;
             transition: 0.3s background-color, 0.3s color;
 
             &:hover{
@@ -235,3 +235,76 @@ p, a{
         }
     }
 }
+
+.management_teams{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+
+    .management_teams_container{
+        text-align: center;
+        padding: 0 1.5em;
+
+        h2{
+            font-size:2.375rem/2.875rem;
+            margin: 0 0 15px;
+            color: #0a1b73;
+            font-weight: 800;
+        }
+    }
+
+}
+
+
+.banners{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    .banners_container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .banner{
+        h3{
+            font-size: 2.0rem;
+            line-height: 2.4rem;
+            margin: 0 0 20px 0;
+        }
+
+        a{
+            color: white;
+            font-size: 1.2rem;
+
+            i{
+                padding-left: 0.5em;
+            }
+        }
+    }
+
+    #banner1{
+        background-image: url(../images/portfoliobg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .banner_inside{
+            background-color: rgba(69,43,137,0.75);
+            padding: 50px;
+        }
+    }
+
+    #banner2{
+        background-image: url(../images/teambg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .banner_inside{
+            background-color: rgba(0,169,160,0.75);
+            padding: 50px;
+        }
+    }
+}
+

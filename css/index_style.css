@@ -251,9 +251,9 @@ p, a {
   text-decoration: none;
   padding: 18px 30px;
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.125rem/1.75rem;
   margin: 75px 0 0;
-  font-weight: 500;
+  font-weight: 400;
   -webkit-transition: 0.3s background-color, 0.3s color;
   transition: 0.3s background-color, 0.3s color;
 }
@@ -261,5 +261,83 @@ p, a {
 .track_section .link_container a:hover {
   background-color: #fff;
   color: #662d91;
+}
+
+.management_teams {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 70px 0;
+}
+
+.management_teams .management_teams_container {
+  text-align: center;
+  padding: 0 1.5em;
+}
+
+.management_teams .management_teams_container h2 {
+  font-size: 2.375rem/2.875rem;
+  margin: 0 0 15px;
+  color: #0a1b73;
+  font-weight: 800;
+}
+
+.banners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.banners .banners_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.banners .banner h3 {
+  font-size: 2.0rem;
+  line-height: 2.4rem;
+  margin: 0 0 20px 0;
+}
+
+.banners .banner a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.banners .banner a i {
+  padding-left: 0.5em;
+}
+
+.banners #banner1 {
+  background-image: url(../images/portfoliobg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banners #banner1 .banner_inside {
+  background-color: rgba(69, 43, 137, 0.75);
+  padding: 50px;
+}
+
+.banners #banner2 {
+  background-image: url(../images/teambg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banners #banner2 .banner_inside {
+  background-color: rgba(0, 169, 160, 0.75);
+  padding: 50px;
 }
 /*# sourceMappingURL=index_style.css.map */
