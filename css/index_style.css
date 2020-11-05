@@ -122,7 +122,7 @@ p, a {
 }
 
 .offer_links .offer_links_container {
-  padding: 2em 1em;
+  padding: 2em 1em 0 1em;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -154,5 +154,112 @@ p, a {
 
 .offer_links .offer_links_container p {
   color: #555555;
+}
+
+.register_link_index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register_link_index .register_link_container {
+  padding: 4em 0;
+}
+
+.register_link_index .register_link_container a {
+  background-color: #662d91;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 30px;
+  display: inline-block;
+  font-size: 1.125rem/1.75rem;
+  font-weight: 400;
+  -webkit-transition: 0.4s background-color;
+  transition: 0.4s background-color;
+}
+
+.register_link_index .register_link_container a:hover {
+  background-color: #2d9091;
+}
+
+.track_section {
+  background-image: linear-gradient(73deg, rgba(10, 27, 115, 0.92) 12%, rgba(0, 185, 175, 0.92) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.track_section .track_section_container {
+  padding: 3.5em 15px;
+  width: 100%;
+}
+
+.track_section .title_container {
+  text-align: center;
+  color: white;
+  padding-bottom: 3.5em;
+}
+
+.track_section .title_container h2 {
+  font: 2.375rem/2.875rem 'Martel';
+  margin: 0 0 0;
+  color: #fff;
+  text-align: center;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+.track_section .track_record_items_container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.track_section .track_record {
+  background-color: rgba(0, 72, 150, 0.2);
+  border: 1px solid #157b9b;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 25px 20px;
+}
+
+.track_section .track_record h3 {
+  font-size: 1.3rem/2.3125rem;
+  font-weight: 500;
+  font-family: 'Martel', sans-serif;
+  margin: 0 0 20px 0;
+}
+
+.track_section .link_container {
+  text-align: center;
+}
+
+.track_section .link_container a {
+  background-color: #00b9af;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 18px 30px;
+  display: inline-block;
+  font-size: 18px;
+  margin: 75px 0 0;
+  font-weight: 500;
+  -webkit-transition: 0.3s background-color, 0.3s color;
+  transition: 0.3s background-color, 0.3s color;
+}
+
+.track_section .link_container a:hover {
+  background-color: #fff;
+  color: #662d91;
 }
 /*# sourceMappingURL=index_style.css.map */
