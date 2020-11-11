@@ -340,4 +340,13 @@ p, a {
   background-color: rgba(0, 169, 160, 0.75);
   padding: 50px;
 }
+
+.video_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=index_style.css.map */
